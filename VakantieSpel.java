@@ -20,8 +20,8 @@ public class VakantieSpel {
 			char laatsteLetter = woordInvoer.charAt(nummerLaatst);
 			System.out.println(laatsteLetter);
 			
-			String nw = invoer.nextLine();
-			char eersteLetter = nw.charAt(0);
+			String nieuwWoord = invoer.nextLine();
+			char eersteLetter = nieuwWoord.charAt(0);
 			//if() {
 			//}
 			if(laatsteLetter == eersteLetter) {
@@ -33,16 +33,5 @@ public class VakantieSpel {
 			
 		}
 	}	
-	
-	static void nieuweWoord() {
-		
-		Scanner invoer = new Scanner(System.in);		
-
-		String nw = invoer.nextLine();
-		char eersteLetter = nw.charAt(0);
-		System.out.println(eersteLetter);
-	}
-	
-	
 
 }
